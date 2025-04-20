@@ -1,0 +1,103 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Apr 19 12:10:34 2025
+# Process ID: 12912
+# Current directory: C:/Users/nofil/Desktop/CA_Project/task 1/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23688 C:\Users\nofil\Desktop\CA_Project\task 1\project_1\project_1.xpr
+# Log file: C:/Users/nofil/Desktop/CA_Project/task 1/project_1/vivado.log
+# Journal file: C:/Users/nofil/Desktop/CA_Project/task 1/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+add_bp {C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Instruction_Memory.v} 35
+remove_bps -file {C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Instruction_Memory.v} -line 35
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim
+launch_simulation
+source Top_moduletb.tcl
+close_sim

@@ -1,0 +1,164 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Apr 20 23:11:48 2025
+# Process ID: 20268
+# Current directory: C:/Users/nofil/Desktop/CA_Project/task 1/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16000 C:\Users\nofil\Desktop\CA_Project\task 1\project_1\project_1.xpr
+# Log file: C:/Users/nofil/Desktop/CA_Project/task 1/project_1/vivado.log
+# Journal file: C:/Users/nofil/Desktop/CA_Project/task 1/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:10 . Memory (MB): peak = 1028.703 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tlcpg236-2L
+Top: RISC_V_Processor
+INFO: [Device 21-403] Loading part xc7a35tlcpg236-2L
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1295.621 ; gain = 243.199
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'RISC_V_Processor' [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/RISC_V_Processor.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Control_Unit' [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Control_Unit.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Control_Unit.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Control_Unit' (1#1) [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Control_Unit.v:4]
+INFO: [Synth 8-6157] synthesizing module 'Program_Counter' [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Program_Counter.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Program_Counter' (2#1) [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Program_Counter.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Imm_Gen' [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Imm_Gen.v:3]
+	Parameter ld_ins bound to: 2'b00 
+	Parameter sd_ins bound to: 2'b01 
+	Parameter br_ins bound to: 2'b11 
+WARNING: [Synth 8-567] referenced signal 'sel' should be on the sensitivity list [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Imm_Gen.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'Imm_Gen' (3#1) [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Imm_Gen.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_Memory' [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Instruction_Memory.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_Memory' (4#1) [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Instruction_Memory.v:3]
+INFO: [Synth 8-6157] synthesizing module 'InstructionParser' [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/InstructionParser.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionParser' (5#1) [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/InstructionParser.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU_64_Bit' [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/ALU_64_Bit.v:1]
+	Parameter AND bound to: 4'b0000 
+	Parameter OR bound to: 4'b0001 
+	Parameter ADD bound to: 4'b0010 
+	Parameter SUB bound to: 4'b0110 
+	Parameter NOR bound to: 4'b1100 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/ALU_64_Bit.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_64_Bit' (6#1) [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/ALU_64_Bit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/RegisterFile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (7#1) [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/RegisterFile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Control' [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/ALU_Control.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/ALU_Control.v:26]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/ALU_Control.v:44]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/ALU_Control.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Control' (8#1) [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/ALU_Control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MUX' [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/MUX.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MUX' (9#1) [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/MUX.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Data_Memory' [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Data_Memory.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Memory' (10#1) [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Data_Memory.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (11#1) [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Branch' [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Branch.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Branch.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'Branch' (12#1) [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Branch.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'RISC_V_Processor' (13#1) [C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/RISC_V_Processor.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1524.996 ; gain = 472.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1524.996 ; gain = 472.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1524.996 ; gain = 472.574
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.231 . Memory (MB): peak = 1524.996 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 392 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1532.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:45 ; elapsed = 00:00:31 . Memory (MB): peak = 1532.348 ; gain = 479.926
+37 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:13 . Memory (MB): peak = 1532.348 ; gain = 503.645
+create_bd_design "design_1"
+Wrote  : <C:\Users\nofil\Desktop\CA_Project\task 1\project_1\project_1.srcs\sources_1\bd\design_1\design_1.bd> 
+create_bd_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1593.184 ; gain = 1.848
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:gig_ethernet_pcs_pma:16.2 gig_ethernet_pcs_pma_0
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.2-98989] design_1_gig_ethernet_pcs_pma_0_0: ARCHITECTURE : artix7
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.2-98989] design_1_gig_ethernet_pcs_pma_0_0: PART : xc7a35tlcpg236-2L
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.2-98989] design_1_gig_ethernet_pcs_pma_0_0: SPEEDGRADE : -2L
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.2-98989] design_1_gig_ethernet_pcs_pma_0_0: Standard : 1000BASEX
+create_bd_cell: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1601.727 ; gain = 8.543
+endgroup
+close_bd_design [get_bd_designs design_1]
+Wrote  : <C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+close_design
+export_ip_user_files -of_objects  [get_files {{C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}}
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_moduletb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Top_moduletb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab -wto 1cdb97a9503c4b44b800ae10e8d7d672 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_moduletb_behav xil_defaultlib.Top_moduletb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 1cdb97a9503c4b44b800ae10e8d7d672 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_moduletb_behav xil_defaultlib.Top_moduletb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_moduletb_behav -key {Behavioral:sim_1:Functional:Top_moduletb} -tclbatch {Top_moduletb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source Top_moduletb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_moduletb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1601.727 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 21 01:02:37 2025...

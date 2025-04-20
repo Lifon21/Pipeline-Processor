@@ -1,0 +1,19 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1744909143,verilog,,,,glbl,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sim_1/new/Top_moduletb.v,1745057380,verilog,,,,Top_moduletb,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/ALU_64_Bit.v,1744909155,verilog,,C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/ALU_Control.v,,ALU_64_Bit,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/ALU_Control.v,1744909155,verilog,,C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Adder.v,,ALU_Control,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Adder.v,1744909155,verilog,,C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Branch.v,,Adder,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Branch.v,1744909155,verilog,,C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Control_Unit.v,,Branch,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Control_Unit.v,1744909155,verilog,,C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Data_Memory.v,,Control_Unit,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Data_Memory.v,1745058324,verilog,,C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Imm_Gen.v,,Data_Memory,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Imm_Gen.v,1744909155,verilog,,C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/InstructionParser.v,,Imm_Gen,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/InstructionParser.v,1744909155,verilog,,C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Instruction_Memory.v,,InstructionParser,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Instruction_Memory.v,1745058547,verilog,,C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/MUX.v,,Instruction_Memory,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/MUX.v,1744909155,verilog,,C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Program_Counter.v,,MUX,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/Program_Counter.v,1744909155,verilog,,C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/RISC_V_Processor.v,,Program_Counter,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/RISC_V_Processor.v,1745172213,verilog,,C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/RegisterFile.v,,RISC_V_Processor,,,,,,,,
+C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sources_1/new/RegisterFile.v,1744909155,verilog,,C:/Users/nofil/Desktop/CA_Project/task 1/project_1/project_1.srcs/sim_1/new/Top_moduletb.v,,RegisterFile,,,,,,,,
