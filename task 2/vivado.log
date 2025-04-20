@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 21 02:55:38 2025
+# Process ID: 20568
+# Current directory: C:/Users/nofil/Desktop/CA_Project/task_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3828 C:\Users\nofil\Desktop\CA_Project\task_2\task_2.xpr
+# Log file: C:/Users/nofil/Desktop/CA_Project/task_2/vivado.log
+# Journal file: C:/Users/nofil/Desktop/CA_Project/task_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nofil/Desktop/CA_Project/task_2/task_2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/H.H/OneDrive/Desktop/CA_Project/CA_Project/task_2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 1027.488 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 21 02:56:24 2025...
